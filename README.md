@@ -1,0 +1,1 @@
+# vscode-sql-template-literal
