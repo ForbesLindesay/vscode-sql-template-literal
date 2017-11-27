@@ -1,5 +1,7 @@
 # vscode-sql-template-literal
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/ForbesLindesay/vscode-sql-template-literal.svg)](https://greenkeeper.io/)
+
 Syntax highlighting for code like:
 
 ```js
