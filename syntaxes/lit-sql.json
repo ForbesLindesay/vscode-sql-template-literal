@@ -32,6 +32,9 @@
         },
         {
           "include": "source.sql"
+        },
+        {
+          "include": "source.plpgsql.postgres"
         }
       ]
     }
