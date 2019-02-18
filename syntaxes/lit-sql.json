@@ -3,7 +3,7 @@
   "injectionSelector": "L:source -comment -string",
   "patterns": [
     {
-      "name": "taggedTemplates",
+      "name": "string.js.taggedTemplate",
       "contentName": "meta.embedded.block.sql",
       "begin": "sql((`))",
       "beginCaptures": {
