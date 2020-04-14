@@ -23,7 +23,8 @@
                     "source.js.jsx",
                     "source.jsx",
                     "source.ts",
-                    "source.tsx"
+                    "source.tsx",
+                    "source.vue"
                 ],
                 "scopeName": "inline.lit-sql",
                 "path": "./syntaxes/lit-sql.json",
