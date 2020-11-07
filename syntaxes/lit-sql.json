@@ -5,12 +5,21 @@
     {
       "name": "string.template.js",
       "contentName": "meta.embedded.block.sql",
-      "begin": "(sql)(`)",
+      "begin": "((sql)|(sql)((\\.)([_$[:alpha:]][_$[:alnum:]]*))?)(`)",
       "beginCaptures": {
-        "1": {
+        "2": {
           "name": "entity.name.function.tagged-template.js"
         },
-        "2": {
+        "3": {
+          "name": "variable.other.object.js"
+        },
+        "5": {
+          "name": "punctuation.accessor"
+        },
+        "6": {
+          "name": "entity.name.function.tagged-template.js"
+        },
+        "7": {
           "name": "punctuation.definition.string.template.begin.js"
         }
       },
